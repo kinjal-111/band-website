@@ -1,0 +1,409 @@
+/*CSS for W3-band-website.html*/
+
+
+/*******************GENERAL PROPERTIES*****************************/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.band{
+    font-family: Lato, Arial, sans-serif;
+    font-size: 15px;
+}
+
+.margin-bottom-15{
+    margin-bottom: 15px;
+}
+
+.margin-bottom-20{
+    margin-bottom: 20px;
+}
+
+.margin-bottom-25{
+    margin-bottom: 25px;
+}
+.margin-bottom-30{
+    margin-bottom: 30px;
+}
+.margin-bottom-50{
+    margin-bottom: 50px;
+}
+.margin-bottom-70{
+    margin-bottom: 70px;
+}
+.margin-bottom-85{
+    margin-bottom: 85px;
+}
+.margin-bottom-110{
+    margin-bottom: 110px;
+}
+.pull-left{
+    float: left;
+}
+.pull-right{
+    float: right;
+}
+.clear-fix{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.no-padding-left{
+    padding-left: 0;
+}
+
+.no-padding-right{
+    padding-right: 0;
+}
+.clearfix{
+    clear: both;
+}
+
+
+/************* FOR HEADER *************************/
+
+.dark-header-fixed{
+    background: black;
+    color: #FFF;
+    width: 100%;
+    height: 45px;
+    position: fixed;
+    margin: 0 auto;
+    box-sizing: border-box;
+    top=0;
+    left=0;
+    z-index: 9999;
+    
+}
+.menu{
+    height: 45px;
+}
+
+.menu-item{
+    display: inline-block;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 20px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.menu-item a:link,
+.menu-item a:visited{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.menu-item:hover{
+    background: #CCC;
+    color: rgba(0,0,0,1);
+    cursor: pointer;
+}
+
+.menu-item.menu-red:hover{
+    background: #F33446;
+    color: #FFF;
+}
+
+.menu-item:hover .sub-menu{
+    display: block;
+}
+
+
+.menu-item.last-menu-item{
+    position: relative;
+}
+
+
+.sub-menu{
+    background: #FFF;
+    position: absolute;
+    left: 0;
+    box-shadow: 1px 2px 7px 0 #999,-1px 2px 7px 0 #999;   
+    display: none;
+}
+.sub-menu .menu-item a{
+    color: black;
+}
+.sub-menu .menu-item{
+    display: block;
+    color: #000;
+    text-transform: capitalize;
+    height: 35px;
+    line-height: 35px;
+    padding-right: 50px;
+}
+/*
+.icon{
+    padding: 10px;
+}
+*/
+
+
+/******************** FOR SLIDER *****************************/
+
+.img-chicago{
+    padding-top: 45px;
+    position: relative;
+}
+
+.title{
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    position: absolute;
+    left: 720px;
+    top: 690px;
+    
+}
+
+.title-content{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    position: absolute;
+    left: 610px;
+    top: 735px;
+}
+
+
+
+/******************** Sections *****************************/
+
+.section{
+    padding: 85px 0 110px;
+}
+
+.container{
+    width: 770px;
+    margin: 0 auto;
+}
+
+.dark-section{
+    background: black;
+    
+}
+
+.dark-section .section-title{
+    color: #FFF;
+}
+
+.section-title{
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    margin top: 
+}
+
+.section .lead{
+    font-weight: 400;
+    color: #999;
+    text-align: center;
+    font-style: italic;
+}
+
+.para{
+    line-height: 1.5;
+    text-align: justify;
+}
+
+/*************** Members ***********************/
+.text-center{
+    text-align: center;
+}
+.col-100{
+    width: 100%;
+    padding: 0 0 0 9px;
+    
+}
+.w-100{
+    width: 100%;
+}
+.member{
+    width: 33.33%;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+
+.pic{
+    padding-top: 15px;
+}
+
+
+/**************** Tickets *****************************/
+
+.text-grey{
+    color: #999;
+    
+}
+
+.event-list{
+    background: #FFF;
+    border: solid 1px #CCC;
+}
+
+.list-item{
+    padding: 10px 20px;
+    border-bottom: solid 1px #CCC;
+    list-style-type: none;
+}
+
+.no-bottom-border{
+    border-bottom: none;    
+}
+
+.sold-out-tag{
+    background: #F44336;
+    color: #fff;
+    padding: 3px 10px;
+    margin-left: 30px;
+    box-sizing: border-box;
+}
+
+.badge{
+    background: #000;
+    color: #FFF;
+    padding: 3px 8px;
+    border-radius: 50%; 
+    margin-right: 12px;
+}
+
+
+.event{
+    width: 33.33%;
+    padding: 0 9px;
+    box-sizing: border-box;
+}
+
+
+.portfolio{
+    position: relative;
+}
+
+.portfolio:hover .overlay{
+    display: block;
+}
+
+
+.overlay{
+    width: 100%;
+    height: 98.26%;
+    position: absolute;
+    background: rgba(0,0,0,0.4);
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+.event-details{
+    padding: 0 25px 25px 15px;
+    
+}
+.event-card{
+    width: 245px;
+    background: #FFF;
+}
+
+.event-card .para{
+    font-size: 14px;
+}
+
+
+/***************** BUTTONS ***********************/
+.btn{
+    background: black;
+    color: #FFF;
+    text-decoration: none;
+    padding: 10px 15px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.btn:hover{
+    background: #CCC;
+    color: #000;
+}
+
+/******************* CONTACT **************************/
+
+.about{
+    padding: 0 10px 0 15px;
+}
+
+.about-us{
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+input[type="text"],input[type="email"]{
+    font-size: 14px;
+    border: solid 1px #ccc;
+    padding: 8px;
+    margin-bottom: 5px;
+}
+input[type="email"]{}
+
+input[type="text"]#message{
+    width: 95%;
+}
+
+.btn-send{
+    background: #000;
+    color: #FFF;
+    text-transform: uppercase;
+    padding: 8px 15px;
+    display: inline;
+    margin-top: 16px 0;
+}
+
+
+/******************* FOOTER **********************/
+
+.footer{
+    padding: 70px 0;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.powered-by{
+    padding: 0 300px;
+    color: #AAA;
+    letter-spacing: 0.5px;
+}
+
+.powered-by a:link,
+.powered-by a:visited{
+    color: #AAA;
+    letter-spacing: 0.5px;
+/*    text-decoration: none;*/
+}
+
+
+.sm-icon{
+    /*padding-left: 280px;*/
+}
+.social-media{
+    list-style-type: none;
+    display: inline-block;
+    color: #777;
+    font-size: 23px;
+    padding: 15px 0px 15px;
+}
+
+
+
+
+/********************** MAP *************************/
+.grayscale{
+    filter: grayscale(60%);
+}

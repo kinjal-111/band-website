@@ -1,0 +1,16 @@
+Section Upper Gap: 85px
+Section Lower Gap: 110px
+
+Gap after Title: 30px
+Gap after sub-title: 25px
+
+Some other gaps: 70px, 50px
+
+
+
+
+element1:not(element1){
+    abc: xyz
+    will apply properties to element 1 and not to element2
+}
+    
